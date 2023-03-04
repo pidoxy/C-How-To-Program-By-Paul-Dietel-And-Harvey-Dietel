@@ -1,0 +1,105 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "chpt3_assignment",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "chpt3_assignment::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chpt3_assignment-Debug-9e2773b29dd9cac920e5.json",
+					"name" : "chpt3_assignment",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "interest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-interest-Debug-fa814e5c8a504cbb1ab8.json",
+					"name" : "interest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mortgage::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mortgage-Debug-d98f9eeef5f66645e87f.json",
+					"name" : "mortgage",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "salary::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-salary-Debug-ef3882bc5d88272e75c7.json",
+					"name" : "salary",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sales::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sales-Debug-a21966c580a101de4bd6.json",
+					"name" : "sales",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sat::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sat-Debug-caba9028fd33fc278f75.json",
+					"name" : "sat",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/pidoxy/School/100 level 2nd Semester/cscs/121 - C/chpt3-assignment/cmake-build-debug",
+		"source" : "/Users/pidoxy/School/100 level 2nd Semester/cscs/121 - C/chpt3-assignment"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
