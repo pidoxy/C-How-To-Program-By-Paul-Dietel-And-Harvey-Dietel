@@ -1,8 +1,0 @@
-/Users/pidoxy/School/100 level 2nd Semester/cscs/121 - C/chpt3-assignment/cmake-build-debug/CMakeFiles/chpt3_assignment.dir
-/Users/pidoxy/School/100 level 2nd Semester/cscs/121 - C/chpt3-assignment/cmake-build-debug/CMakeFiles/mortgage.dir
-/Users/pidoxy/School/100 level 2nd Semester/cscs/121 - C/chpt3-assignment/cmake-build-debug/CMakeFiles/sales.dir
-/Users/pidoxy/School/100 level 2nd Semester/cscs/121 - C/chpt3-assignment/cmake-build-debug/CMakeFiles/interest.dir
-/Users/pidoxy/School/100 level 2nd Semester/cscs/121 - C/chpt3-assignment/cmake-build-debug/CMakeFiles/salary.dir
-/Users/pidoxy/School/100 level 2nd Semester/cscs/121 - C/chpt3-assignment/cmake-build-debug/CMakeFiles/sat.dir
-/Users/pidoxy/School/100 level 2nd Semester/cscs/121 - C/chpt3-assignment/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/pidoxy/School/100 level 2nd Semester/cscs/121 - C/chpt3-assignment/cmake-build-debug/CMakeFiles/rebuild_cache.dir
