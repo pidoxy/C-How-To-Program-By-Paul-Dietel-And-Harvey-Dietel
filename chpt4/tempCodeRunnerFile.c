@@ -1,51 +1,52 @@
-#include<stdio.h>
-int main(){
-    int i, max_num=0, min_num=0,j,count;
-    //since there are only 2 prime numbers,
-    //c variable counts the i%j==0 section in the loop
-    //Ask user to input the range
-    printf("Enter a minimum number:");
-    scanf("%d",&min_num);
-    printf("Enter a maximum number:");
-    scanf("%d",&max_num);
+#include <stdio.h>
+
+// int main()
+// {
+//     int product_num, quantity_sold;
+//     double retail_price1, retail_price2, retail_price3, retail_price4, retail_price5;
+//     double total_retail_value;
+//     char view_retail_value = "";
+//     char all_for_last_week = "";
+//     int view_product_num = 0;
+
+//     product_num = 0;
+
+//     retail_price1 = 2.98;
+//     retail_price2 = 4.50;
+//     retail_price3 = 9.98;
+//     retail_price4 = 4.49;
+//     retail_price5 = 6.87;
+
+//     // ask user to enter five products and their retail prices
+//     // use %lf to read a double
+
+//     printf("Enter your product numbers and click enter: \n");
+
+//     scanf("%d ", &product_num);
+//     printf("\n");
+//     printf("Enter your the quantity sold for the day and click enter: \n");
+//     scanf("%d", &quantity_sold);
+
+//     printf("Is that all that was sold in the week? (y/n): ");
+//     scanf("%d", &all_for_last_week);
+
+//     total_retail_value = retail_price1 * quantity_sold;
+
+//     while (all_for_last_week == "n")
+//     {
+//         printf("Enter your product numbers and click enter: \n");
+
+//         scanf("%d ", &product_num);
+//         printf("\n");
+//         printf("Enter your the quantity sold for the day and click enter: \n");
+//         scanf("%d", &quantity_sold);
+//     }
+//     // else if(all_for_last_week == "y"){
+//     //     printf("\n The total retail value is: %.2lf", total_retail_value);
+//     // }
+
     
-    //max num must be greater than min_num
-    //max_num>min_num;
-    //Write a condition for if either max num is less than or equal to 1
-    if(max_num<=1){
-        printf("There are no prime numbers");
-        }
-    //if the min num is negative or 1, start looping from 2
-    else if(min_num<=1){
-        //write a for loop that checks for the prime number
-        for(i=2;i<max_num+1;i++){
-            count=0;
-            printf("%d\n",i);
-            /*for(j=1;j<i+1;j++){
-                if(i&j==0){
-                    count+=1;
-                }
-            }
-            if(count==2){
-                printf("%d\n",j);
-            }
-        }
-    }*/
-    /*else{
-        //write a for loop that checks for the prime number
-        for(i=min_num;i<max_num+1;i++){
-            count=0;
-            for(j=1;j<i+1;j++){
-                if(i&j==0){
-                    count+=1;
-                }
-            }
-            if(count==2){
-                printf("%d\n",j);
-            }
-        }
-    }*/
- }
-    }
-        return 0;
- }
+
+//     total_retail_value = retail_price1 + retail_price2 + retail_price3 + retail_price4 + retail_price5;
+//     printf("\n The total retail value is: %.2lf", total_retail_value);
+// }
