@@ -57,13 +57,14 @@ int main()
     float price;
     double retail_price1, retail_price2, retail_price3, retail_price4, retail_price5;
 
+    // initialize retail prices
     retail_price1 = 2.98;
     retail_price2 = 4.50;
     retail_price3 = 9.98;
     retail_price4 = 4.49;
     retail_price5 = 6.87;
 
-    // Print input
+    // Print table data
     printf("_________________________________\n");
     printf("|Product number    Retail price| \n");
     printf("|    %d              $%.2lf     | \n", 1, retail_price1);
@@ -82,13 +83,14 @@ int main()
 
         for (int i = 1; i <= 5; i++)
         {
+            // product number input
             printf("Product %d: ", i);
             scanf("%d", &product_number);
 
             if(product_number == -1){
                 break;
             }
-
+            // quantity sold input
             printf("Quantity sold: ");
             scanf("%d", &quantity);
 
