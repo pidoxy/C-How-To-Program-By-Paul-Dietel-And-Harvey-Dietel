@@ -22,6 +22,51 @@
 
 //     printf("Enter your product numbers and click enter: \n");
 
+
+// Print input
+    // printf("_________________________________\n");
+    // printf("|Product number    Retail price| \n");
+    // printf("|    %d              $%.2lf     | \n", 1, retail_price1);
+    // printf("|    %d              $%.2lf     | \n", 2, retail_price2);
+    // printf("|    %d              $%.2lf     | \n", 3, retail_price3);
+    // printf("|    %d              $%.2lf     | \n", 4, retail_price4);
+    // printf("|    %d              $%.2lf     | \n", 5, retail_price5);
+
+    // // Determine retail value for each product
+    // printf("Want to view the retail value of each product? (y/n): ");
+    // scanf("%s", &view_retail_value);
+
+    // while (view_retail_value == "y")
+    // {
+
+    //     // value you want view
+    //     printf("Enter the product number you want to see? (y/n): ");
+    //     scanf("%d", &view_product_num);
+
+    //     switch (view_product_num)
+    //     {
+    //     case 1:
+    //         printf("The retail value of product number %d is: $%.2lf \n", 1, retail_price1);
+    //         break;
+    //     case 2:
+    //         printf("The retail value of product number %d is: $%.2lf \n", 2, retail_price2);
+    //         break;
+    //     case 3:
+    //         printf("The retail value of product number %d is: $%.2lf \n", 3, retail_price1);
+    //         break;
+    //     case 4:
+    //         printf("The retail value of product number %d is: $%.2lf \n", 4, retail_price1);
+    //         break;
+    //     case 5:
+    //         printf("The retail value of product number %d is: $%.2lf \n", 5, retail_price1);
+    //         break;
+    //     default:
+    //         printf("Invalid product number \n");
+    //     }
+
+    //     printf("Want to view the retail value of each product? (y/n): ");
+    //     scanf("%s", &view_retail_value);
+    // }
 //     scanf("%d ", &product_num);
 //     printf("\n");
 //     printf("Enter your the quantity sold for the day and click enter: \n");
