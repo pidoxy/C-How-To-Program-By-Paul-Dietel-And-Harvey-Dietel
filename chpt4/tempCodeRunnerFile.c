@@ -1,9 +1,12 @@
-#include<stdlib.h>
+/* C++ Program to demonstrate use of left shift
+operator */
 #include<stdio.h>
-#include<time.h>
+int main()
+{
+	float i = 1.22222;
+    char res;
 
-int main(){
-    unsigned int i = srand(time(NULL));
-
-    printf("%i", i);
+    res = printf("%.2f", i);
+    printf("", res);
+	return 0;
 }

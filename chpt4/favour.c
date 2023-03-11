@@ -84,7 +84,6 @@ int main(void)
         case 12:
             printf("Twelvth");
             break;
-        
         }
 
         printf(" day of Christmas my true love sent to me\n");
