@@ -6,12 +6,16 @@ int generateRandomNumberInRange(int lower_bound, int upper_bound)
 {
     int i, output;
 
-    output = lower_bound + (rand() % upper_bound);
+    
+        output = lower_bound + (rand() % upper_bound);
+
+    
     
     return output;
 }
 int main(void)
 {
+    int i;
     // a
     printf("a - %d \n", generateRandomNumberInRange(1, 6));
     // b

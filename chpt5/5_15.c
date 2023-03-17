@@ -3,7 +3,9 @@
 
 double hypotenuse(double side1, double side2)
 {
+    // pythagoras theorem
     double hypotenuse = sqrt(side1 * side1 + side2 * side2);
+    // double hypotenuse = sqrt(pow(side1, 2) + pow(side2, 2));
     return hypotenuse;
 }
 
