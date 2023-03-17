@@ -1,6 +1,10 @@
 #include <stdio.h>
 #include <math.h>
-// round to the nearest higher integer
+
+/* a program that reads
+several numbers and uses the preceding statement to round each of these numbers to the nearest
+integer*/
+
 int main(void)
 {
     int x = 0, y;

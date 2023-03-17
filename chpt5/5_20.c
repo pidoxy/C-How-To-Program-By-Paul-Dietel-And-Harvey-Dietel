@@ -20,8 +20,22 @@ int solidRectangle(unsigned int side1, unsigned int side2,  char fillCharacter )
 }
 
 int main(){
+
+    char fill_character;
+
+    // call function 
     solidRectangle(5,10, '*');
     printf("\n");
     solidRectangle(4,5, '@');
     printf("\n");
+    solidRectangle(6,8, '#');
+    printf("\n");
+    solidRectangle(7,5, '+');
+    printf("\n");
+
+    // printf("What character will you like to be print: ");
+    // scanf("%c", &fill_character);
+
+    // solidRectangle(4,5, fill_character);
+    // printf("\n");
 }

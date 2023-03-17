@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-// round to the nearest decimal place
+
 
 double roundToInteger(double number)
 {
@@ -49,8 +49,8 @@ int main(void)
     {
 
         printf("Original number - %f, Rounded number to the  to the nearest integer - %f \n", x, roundToInteger(x));
-        printf("Original number - %f, Rounded number to the  to the nearest tenth - %f \n", x, roundToHundreths(x));
-        printf("Original number - %f, Rounded number to the  to the nearest hundredth - %f \n", x, roundToTenths(x));
+        printf("Original number - %f, Rounded number to the  to the nearest tenth - %f \n", x, roundToTenths(x));
+        printf("Original number - %f, Rounded number to the  to the nearest hundredth - %f \n", x, roundToHundreths(x));
         printf("Original number - %f, Rounded number to the  to the nearest thousandth - %f \n", x, roundToThousandths(x));
 
         printf("\nEnter the number you want to round to the nearest integer: ");
