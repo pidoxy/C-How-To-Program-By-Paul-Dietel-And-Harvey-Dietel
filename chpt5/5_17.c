@@ -18,10 +18,16 @@ int isRightAngled(unsigned int x, unsigned int y, unsigned int z){
 }
 
 int main(){
-    if (isRightAngled(3,4,5)){
-        printf("The combination gives a right angled triangle");
+    unsigned int a, b, c;
+    a = b = c = 0;
+
+    printf("Enter the three sides of the triangle: ");
+    scanf("%u%u%u", &a, &b, &c);
+
+    if (isRightAngled(a,b,c)){
+        printf("\nThe combination gives a right angled triangle");
     }else{
-        printf("The combination does not give a right angled triangle");
+        printf("\nThe combination does not give a right angled triangle");
     }
 
 

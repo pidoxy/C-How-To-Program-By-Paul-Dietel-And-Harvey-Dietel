@@ -6,7 +6,7 @@ int generateRandomNumberInRange(int lower_bound, int upper_bound)
 {
     int i, output;
 
-    
+    // lower bound is shifting value, upper bound is scaling value
         output = lower_bound + (rand() % upper_bound);
 
     

@@ -25,14 +25,14 @@ int main()
     {
         if (isEven(number))
         {
-            printf("The number is even  \n");
+            printf("\nThe number is even  \n");
         }
         else
         {
-            printf("The number is odd \n");
+            printf("\nThe number is odd \n");
         }
 
-        printf("Enter a number: ");
+        printf("\nEnter a number: ");
         scanf("%d", &number);
     }
 }
